@@ -9,6 +9,7 @@ updates:
     directory: "/TP_AL-main/fr-administration-front"
     schedule:
       interval: "daily"
+    open-pull-requests-limit: 20
   - package-ecosystem: "docker"
     directory: "/TP_AL-main/fr-administration-front" 
     schedule:
