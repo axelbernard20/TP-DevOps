@@ -6,10 +6,14 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/TP_AL" # Location of package manifests
+    directory: "/TP_AL/fr-administration-front" # Location of package manifests
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "docker-compose"
+    directory: "/TP_AL" 
     schedule:
       interval: "daily"
   - package-ecosystem: "docker"
-    directory: "/TP_AL" 
+    directory: "/TP_AL/fr-administration-front" 
     schedule:
       interval: "daily"
