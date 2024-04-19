@@ -4,7 +4,7 @@ import { Association } from '../associations/association.entity';
 
 @Entity()
 export class Role {
-  @Column({ primary: true })
+  @Column({ primary: true })//j'ai changé ca la t'as vu
   idUser: number;
 
   @Column({ primary: true })
