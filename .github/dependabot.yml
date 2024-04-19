@@ -6,10 +6,10 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/TP_AL" # Location of package manifests
     schedule:
       interval: "daily"
   - package-ecosystem: "docker"
-    directory: "/" 
+    directory: "/TP_AL" 
     schedule:
       interval: "daily"
